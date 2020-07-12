@@ -21,3 +21,7 @@ Requirements for running the code in this repo are:
  - `Matplotlib`
 
 The repository has been tested on the [Google Colab](https://colab.research.google.com/) environment, and has reported expected results. Owing to testing on this environment, the associated `iPython Notebooks` are also included in the repository. Further, owing to the characteristics of the Colab environment, it was necessary to add the relevant paths pointing to the modular Python files to the `OS PATH` variable, if using on a local machine, these lines can be commented out from the top of the application files.
+
+> [UPDATE 7-12-2020]
+> Added TensorFlow 2 versions, more specifically updated versions of the networks using `tensorflow.keras`
+> To use, simply replace the existing architectures in the `PPM\nn\conv` directory with the files in `TF2_Versions`. Alternatively, these may be called as standalone classes from the `TF2_Versions` directory itself for implementations that do not involve the auxiliary modules from the `PPM` directory.
